@@ -12,72 +12,81 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/home"
-            android:scaleType="fitXY"
-            android:layout_weight="1"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/home"
-            android:scaleType="fitXY"
-            android:layout_weight="1"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/home"
-            android:scaleType="fitXY"
-            android:layout_weight="1"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/home"
-            android:scaleType="fitXY"
-            android:layout_weight="1"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/home"
-            android:scaleType="fitXY"
-            android:layout_weight="1"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/home"
-            android:scaleType="fitXY"
-            android:layout_weight="1"/>
 
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/home" />
+
+        </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-<android.support.design.widget.AppBarLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_scrollFlags="scroll|enterAlways"
-    android:theme="@style/AppTheme.PopupOverlay">
-        <android.support.design.widget.TabLayout
-            android:id="@+id/tabs"
+
+        <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fitsSystemWindows="true"
-            android:scaleY="-1"
             android:theme="@style/AppTheme.PopupOverlay"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:scaleY="-1"
+                android:theme="@style/AppTheme.PopupOverlay"
 
 
-            />
+                />
 
-</android.support.design.widget.AppBarLayout>
+        </android.support.design.widget.AppBarLayout>
     </android.support.constraint.ConstraintLayout>
 </android.support.design.widget.CoordinatorLayout>
